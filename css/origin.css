@@ -1,0 +1,334 @@
+
+div#container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+html,body {
+    height: 97%;
+}
+div#container{
+    position: relative;
+    min-height: 97%;
+    height: auto !important;
+    height: 97%;
+}
+
+.layerImage {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg_main.jpg);
+    background-size: cover;
+    
+}
+
+.layerTransparent {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+div#main{
+    padding-bottom: 30px;
+}
+
+div#footer{
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: 30px;
+    margin: 0 auto;
+    
+    padding: .25em 1em .25em 1.5em;
+	border: 1px solid #ccc;
+}
+
+
+h1 {
+	position: relative;
+	padding: .25em 1em .05em 1.5em;
+	border: 1px solid #ccc;
+	font-size: 18px; 
+	margin-bottom: 5px;
+}
+
+h1::after {
+	position: absolute;
+	top: .5em;
+	left: .5em;
+	content: '';
+	width: 6px;
+	height: -webkit-calc(100% - 1em);
+	height: calc(100% - 1em);
+	background-color: #3498db;
+	border-radius: 4px;
+}
+
+div#title_box {
+	float: left;
+	width: 85%;
+}
+
+#title_box {
+	padding: .5em .5em;
+	background-color: #f6f6f6;
+	border-radius: 6px;
+	margin: 30px 5px 10px 5px;
+}
+
+td#title {
+	font-size: 38px;
+	width:200px;
+	margin-right:20px;
+	text-align: center;
+}
+
+div#question {
+	
+	font-size: 38px;
+	padding-left: 0px;
+}
+
+div#notice {
+    
+    width: 60%;
+    font-size: 30px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: solid 2px black;
+    box-sizing: border-box;
+    margin: 10px 20px 15px 20px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.sel_all {
+
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.select {
+    background-color: #FFFFFF;
+}
+
+.sel_numBox, .sel_nameBox, .sel_gaugeBox, .sel_oddsBox {
+    float: left;
+    
+}
+
+#select1, #select2, #select3, #select4 {
+  /*float: left;*/
+  border-color: yellow;
+  width: 75%;
+  border: solid 2px black;
+  box-sizing: border-box;
+  font-size: 42px;
+  margin: 20px auto 15px auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.sel_numBox {
+    
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sel_gaugeBox, .gauge-wrapper {
+    width: 300px;
+}
+
+#sel_numBox1 {
+    background-color: #B22222;
+}
+
+#sel_numBox2 {
+    background-color: #00008B;
+}
+
+#sel_numBox3 {
+    background-color: #2E8B57;
+}
+
+#sel_numBox4 {
+    background-color: #FFD700;
+}
+
+
+.sel_nameBox {
+    width: 600px;
+    text-align: left;
+    color: #000000;
+    padding: 0 10px 10px 60px;
+}
+
+.sel_gaugeBox {
+    width: 300px;
+    text-align: left;
+    color: #000000;
+    padding: 0 10px 0 20px;
+}
+
+.sel_oddsBox {
+    width: 150px;
+    text-align: left;
+    color: #000000;
+    padding: 0 10px 0 20px;
+}
+
+.gaugeLabel, .oddsLabel {
+    font-size: 24px;
+}
+
+#select1 {
+	border-color: #B22222;
+}
+#select2 {
+	border-color: #00008B;
+}
+#select3 {
+	border-color: #2E8B57;
+}
+#select4 {
+	border-color: #FFD700;
+}
+
+#sel1,#sel2,#sel3,#sel4 {
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.img_box {
+	text-align: center;
+}
+
+img.sel_img {
+	
+	height: 150px;
+}
+
+div#q_img_box {
+	text-align: center;
+}
+
+img#q_img {
+	height: 200px;
+}
+
+.sel_str {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+
+
+div#nokori {
+	margin: 0 0 -10px 0;
+	font-size: 32px;
+}
+
+div#timer {
+	position: relative;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+	font-size: 75px;
+	font-weight: bold;
+}
+
+
+
+div#timer_box {
+	float: left;
+	margin-left: 50px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.clear {
+	clear:both;　/*floatの解除、ここがポイント*/
+}
+
+div#slide {
+	
+	/* height: 95%; */
+	text-align: center;
+}
+
+img#img_slide {
+	width: 100%;
+}
+
+table.ranking {
+	border: 2px #2b2b2b solid;
+	border-collapse: collapse;
+}
+
+td.ranking_, th.ranking_ {
+border: 2px #2b2b2b solid;
+}
+
+
+
+.gauge-wrapper {
+	background-color: #FFF;
+	/*height: 24px;*/
+	position: relative;
+	margin: 0 10px 0 10px;
+}
+.gauge-inner {
+	position: relative;
+	bottom: 1px;
+	box-sizing: border-box;
+	/*height: 24px;*/
+	width: 0%;
+	-webkit-transition: all .7s 1s ease;
+}
+.gauge-type1.gauge-inner {
+	background: -webkit-gradient(linear,left bottom,right top,from(#F25500),to(#F89100));
+	background-color: #ff4500;
+	background-color: #ff4500\9;
+	border: 1px inset #F25500;
+}
+.gauge-type2.gauge-inner {
+	background: -webkit-gradient(linear,left bottom,right top,from(#165e83),to(#0094c8));
+	border: 1px inset #274a78;
+}
+
+
+/* ranking */
+div#ranking_box {
+	width: 1200px;
+	text-align: center;
+} 
+
+
+
+div#container_rank{
+    width: 1200px;
+    text-align: center;
+}
+
+
+/*  quiz_all  */
+span#timer {
+	text-align: center;
+	font-size: 18px;
+	font-color: #FF5500; 
+}
+
+div#condition {
+	text-align: center;
+	font-size: 18px; 
+}
+
+.rr {
+    background-color: white;
+}

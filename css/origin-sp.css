@@ -1,0 +1,13 @@
+/* quiz_all */
+
+div#timer {
+	text-align: center;
+	font-size: 18px;
+	font-color: #FF5500;
+}
+
+
+div#condition {
+	text-align: center;
+	font-size: 18px;
+}

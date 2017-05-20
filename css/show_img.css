@@ -1,0 +1,68 @@
+
+#selectIMG1, #selectIMG2, #selectIMG3, #selectIMG4 {
+  float: left;
+  border-color: yellow;
+  width: 47%;
+  border: solid 2px black;
+  box-sizing: border-box;
+  font-size: 42px;
+  margin: 5px 10px 10px auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#selectIMG1 {
+	border-color: #B22222;
+}
+#selectIMG2 {
+	border-color: #00008B;
+}
+#selectIMG3 {
+	border-color: #2E8B57;
+}
+#selectIMG4 {
+	border-color: #FFD700;
+}
+
+img.select_img {
+  height: 300px;
+
+}
+
+div.sel_numBoxI {
+    
+    position: absolute;  
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+div.sel_guageBoxI {
+    position: absolute;
+    margin: 270px 0 100px 39%;
+    width: 100px;
+    text-align: center;
+    color: #000000;
+    border: solid 2px black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 42px;
+}
+
+
+div.sel_imgNameBoxI {
+
+    position: absolute;
+    margin: 270px 0 100px 3%;
+    width: 500px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FA5858;
+    border: solid 2px black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 30px;
+
+}

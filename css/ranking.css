@@ -1,0 +1,119 @@
+
+/*-----------------------
+	RankingAll
+-------------------------*/
+
+div#containerRank{
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+    min-height: 97%;
+    height: auto !important;
+    height: 97%;
+}
+
+div.nameBox {
+    
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #FFFFFF;
+    border: solid 2px black;
+    box-sizing: border-box;
+    /* margin: 10px 20px 15px 20px; */
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+div#boxHead {
+    background-color: #CED8F6;
+}
+
+div.rank, div.team, div.name, div.num, div.time {
+    float: left;
+    text-align: center;
+    list-style-type:none;
+    /*margin-right:6px;
+    padding-left:10px;*/
+    border-left:1px solid #999;
+}
+
+div.rank {
+    width: 12%;
+    border-left:0;
+    padding-left:0;
+}
+
+div.team {
+    width: 20%;
+}
+
+div.name {
+    width: 35%;
+}
+
+div.num {
+    width: 12%;
+}
+
+div.time {
+    width: 20%;
+
+}
+
+
+div#r_title_box {
+	width: 900px;
+	font-size: 30px;
+        margin: 0 auto;
+	text-align: center;
+}
+
+#r_title_box {
+	padding: .5em .5em;
+	background-color: #f6f6f6;
+	border-radius: 6px;
+	margin: 10px 5px 10px 5px;
+	text-align: center;
+}
+
+/* TEAM */
+
+div.explain {
+	width: 900px;
+	font-size: 25px;
+        margin: 0 auto;
+	text-align: center;
+	padding: .5em .5em;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	text-align: center;
+}
+
+div.explain2 {
+	width: 1200px;
+	font-size: 30px;
+        margin: 0 auto;
+	text-align: center;
+	padding: .5em .5em;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	text-align: center;
+}
+
+div#team {
+	width: 900px;
+	font-size: 50px;
+        margin: 100px auto 0px auto;
+	text-align: center;
+	padding: .5em .5em;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	text-align: center;
+}
+
+div.extra {
+	font-size: 25px;
+}
+
