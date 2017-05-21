@@ -1,9 +1,15 @@
 <?php
 function getDB(){
 
+<<<<<<< HEAD
     $dsn = 'mysql:dbname=LAA0636957-bigfaceworks; host=mysql101.phy.lolipop.lan';
     $usr = 'LAA0636957';
     $pass = 'MATSUURA4';
+=======
+    $dsn = 'mysql:dbname=<SECRET>; host=<SECRET>';
+    $usr = '<SECRET>';
+    $pass = '<SECRET>';
+>>>>>>> 6782f34... Modifed include file
 
 
     try{
